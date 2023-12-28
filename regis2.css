@@ -1,0 +1,123 @@
+.selamat-datang3 {
+  position: relative;
+}
+.bunda-wrapper1,
+.title15 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.bunda-wrapper1 {
+  border-radius: var(--br-base);
+  background-color: var(--color-pink);
+  flex-shrink: 0;
+  padding: var(--padding-7xs) var(--padding-xs);
+}
+.title15 {
+  gap: var(--gap-6xs);
+}
+.email5 {
+  position: relative;
+  font-weight: 600;
+}
+.email4,
+.pass2 {
+  align-self: stretch;
+  border-radius: var(--br-11xl);
+  border: 2px solid var(--color-gray-200);
+  box-sizing: border-box;
+  height: 80px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.email4 {
+  display: flex;
+  align-items: center;
+  padding: var(--padding-6xs) var(--padding-xl);
+}
+.pass2 {
+  display: none;
+  padding: var(--padding-3xs) var(--padding-xl);
+  gap: var(--gap-181xl);
+}
+.form3,
+.nohp2,
+.pass2 {
+  align-items: center;
+}
+.nohp2 {
+  align-self: stretch;
+  border-radius: var(--br-11xl);
+  border: 2px solid var(--color-gray-200);
+  box-sizing: border-box;
+  height: 80px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-xl);
+}
+.form3 {
+  background-color: var(--color-white);
+  width: 524px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: var(--gap-17xl);
+}
+.kata-sandi-harus {
+  position: relative;
+  font-size: var(--notes-size);
+  color: var(--color-black);
+}
+.form-parent {
+  flex-shrink: 0;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-xl);
+}
+.button4,
+.form-parent,
+.form2,
+.regis2 {
+  display: flex;
+  justify-content: center;
+}
+.form2 {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-17xl);
+  font-size: var(--body-size);
+  color: var(--color-gray-100);
+}
+.button4,
+.regis2 {
+  overflow: hidden;
+  align-items: center;
+}
+.button4 {
+  border-radius: var(--br-11xl);
+  background: linear-gradient(-72.89deg, #94bce1, #bde0fe);
+  flex-direction: row;
+  padding: var(--padding-6xl) var(--padding-51xl);
+  cursor: pointer;
+  color: var(--color-white);
+}
+.regis2 {
+  position: relative;
+  background-color: var(--color-snow);
+  width: 100%;
+  height: 982px;
+  flex-direction: column;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  gap: var(--gap-51xl);
+  text-align: left;
+  font-size: var(--title-size);
+  color: var(--color-black);
+  font-family: var(--notes);
+}

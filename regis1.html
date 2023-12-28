@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./regis1.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+    />
+  </head>
+  <body>
+    <div class="regis1">
+      <div class="title13">
+        <div class="title14">
+          <b class="selamat-datang2">Mari Bergabung</b>
+          <div class="bunda-frame">
+            <b class="selamat-datang2">Bunda</b>
+          </div>
+        </div>
+        <div class="buat-akun-dahulu">
+          Buat akun dahulu untuk bergabung dengan kami
+        </div>
+      </div>
+      <div class="form1">
+        <div class="email2">
+          <div class="email3">Email</div>
+        </div>
+        <div class="pass1">
+          <div class="email3">Kata sandi</div>
+          <div class="lupa-kata-sandi1">Lupa Kata Sandi ?</div>
+        </div>
+        <div class="nohp1">
+          <div class="email3">Nomor Handphone</div>
+        </div>
+      </div>
+      <div class="button3" id="buttonContainer">
+        <b class="selamat-datang2">Selanjutnya</b>
+      </div>
+    </div>
+
+    <script>
+      var buttonContainer = document.getElementById("buttonContainer");
+      if (buttonContainer) {
+        buttonContainer.addEventListener("click", function (e) {
+          window.location.href = "./regis2.html";
+        });
+      }
+      </script>
+  </body>
+</html>

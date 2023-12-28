@@ -1,0 +1,155 @@
+.graphic-icon {
+  position: absolute;
+  top: 62px;
+  left: -184px;
+  width: 1921.2px;
+  height: 836.4px;
+  object-fit: cover;
+}
+.foto-icon {
+  position: relative;
+  border-radius: var(--br-11xl);
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.dr-evilia-rachmat {
+  position: relative;
+  font-weight: 600;
+}
+.spesialis-tht-anak {
+  position: relative;
+  font-size: var(--body-size);
+  font-weight: 500;
+}
+.nama {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-3xs);
+}
+.doctor,
+.sesi-30m {
+  display: flex;
+  flex-direction: row;
+}
+.doctor {
+  border-radius: 45px;
+  background-color: var(--color-white);
+  box-shadow: 0 22px 80px rgba(0, 0, 0, 0.07),
+    0 11px 40.04px rgba(0, 0, 0, 0.05), 0 6.6px 24.12px rgba(0, 0, 0, 0.05),
+    0 4.3px 15.46px rgba(0, 0, 0, 0.04), 0 2.8px 10.02px rgba(0, 0, 0, 0.04),
+    0 1.7px 6.31px rgba(0, 0, 0, 0.03), 0 1px 3.62px rgba(0, 0, 0, 0.02),
+    0 0.4px 1.59px rgba(0, 0, 0, 0.02);
+  overflow: hidden;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-xl) var(--padding-21xl) var(--padding-xl)
+    var(--padding-xl);
+  gap: var(--gap-17xl);
+  font-size: var(--subtitle-size);
+}
+.sesi-30m {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.total-tagihan-child {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.total-tagihan {
+  align-self: stretch;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-white);
+  box-shadow: 0 22px 80px rgba(0, 0, 0, 0.07),
+    0 11px 40.04px rgba(0, 0, 0, 0.05), 0 6.6px 24.12px rgba(0, 0, 0, 0.05),
+    0 4.3px 15.46px rgba(0, 0, 0, 0.04), 0 2.8px 10.02px rgba(0, 0, 0, 0.04),
+    0 1.7px 6.31px rgba(0, 0, 0, 0.03), 0 1px 3.62px rgba(0, 0, 0, 0.02),
+    0 0.4px 1.59px rgba(0, 0, 0, 0.02);
+  height: 259px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xl) var(--padding-27xl);
+  box-sizing: border-box;
+  gap: var(--gap-17xl);
+}
+.anak-saya-sudah {
+  position: relative;
+  font-size: var(--body-size);
+  font-weight: 500;
+  display: inline-block;
+  width: 836px;
+}
+.content6,
+.doctor1 {
+  display: flex;
+  flex-direction: column;
+}
+.doctor1 {
+  align-self: stretch;
+  border-radius: var(--br-21xl);
+  background-color: #f2f2f2;
+  box-shadow: 0 22px 80px rgba(0, 0, 0, 0.07),
+    0 11px 40.04px rgba(0, 0, 0, 0.05), 0 6.6px 24.12px rgba(0, 0, 0, 0.05),
+    0 4.3px 15.46px rgba(0, 0, 0, 0.04), 0 2.8px 10.02px rgba(0, 0, 0, 0.04),
+    0 1.7px 6.31px rgba(0, 0, 0, 0.03), 0 1px 3.62px rgba(0, 0, 0, 0.02),
+    0 0.4px 1.59px rgba(0, 0, 0, 0.02);
+  border: 10px solid var(--color-white);
+  overflow: hidden;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-17xl) var(--padding-27xl);
+  gap: 26px;
+}
+.content6 {
+  position: absolute;
+  top: 107px;
+  left: 292px;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-11xl);
+}
+.lanjut {
+  position: relative;
+}
+.button6 {
+  position: absolute;
+  top: 783px;
+  left: 631.5px;
+  border-radius: var(--br-11xl);
+  background: linear-gradient(-74.5deg, #94bce1, #bde0fe);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-6xl) var(--padding-51xl);
+  cursor: pointer;
+  font-size: var(--title-size);
+  color: var(--color-white);
+}
+.payment {
+  position: relative;
+  background-color: var(--color-snow);
+  width: 100%;
+  height: 982px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--bodytitle-size);
+  color: var(--color-black);
+  font-family: var(--notes);
+}

@@ -1,10 +1,10 @@
-# new-born-new
 
-# Informasi
-1) Untuk buatnya nanti gantian aja push sesuai komunikasi di grup.
+  # NewBorn
 
-2) Biar mudah download github desktop biar automatis ke push di repo.
+  Note: Please ensure you have installed <code><a href="https://nodejs.org/en/download/">nodejs</a></code>
 
-3) Plugins Figma Dev pake Locofy, configure ke HTML/CSS/JS
-
-3) Ingat install tailwind css dulu sebelum dikerjakan.
+  To preview and run the project on your device:
+  1) Open project folder in <a href="https://code.visualstudio.com/download">Visual Studio Code</a>
+  2) In the terminal, run `npm install`
+  3) Run `npm start` to view project in browser
+  

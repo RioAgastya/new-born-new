@@ -1,0 +1,112 @@
+.selamat-datang2 {
+  position: relative;
+}
+.bunda-frame,
+.title14 {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.bunda-frame {
+  border-radius: var(--br-base);
+  background-color: var(--color-pink);
+  padding: var(--padding-7xs) var(--padding-xs);
+}
+.title14 {
+  gap: var(--gap-6xs);
+}
+.buat-akun-dahulu {
+  position: relative;
+  font-size: var(--notes-size);
+}
+.title13 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-xl);
+}
+.email3 {
+  position: relative;
+  font-weight: 600;
+}
+.email2 {
+  align-self: stretch;
+  border-radius: var(--br-11xl);
+  border: 2px solid var(--color-gray-200);
+  box-sizing: border-box;
+  height: 80px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) var(--padding-xl);
+}
+.lupa-kata-sandi1 {
+  position: relative;
+  font-size: var(--notes-size);
+  color: var(--color-black);
+}
+.pass1 {
+  gap: var(--gap-181xl);
+}
+.nohp1,
+.pass1 {
+  align-self: stretch;
+  border-radius: var(--br-11xl);
+  border: 2px solid var(--color-gray-200);
+  box-sizing: border-box;
+  height: 80px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-xl);
+}
+.button3,
+.form1,
+.regis1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form1 {
+  background-color: var(--color-white);
+  width: 524px;
+  flex-direction: column;
+  gap: var(--gap-17xl);
+  font-size: var(--body-size);
+  color: var(--color-gray-100);
+}
+.button3,
+.regis1 {
+  overflow: hidden;
+}
+.button3 {
+  border-radius: var(--br-11xl);
+  background: linear-gradient(-73.5deg, #94bce1, #bde0fe);
+  flex-direction: row;
+  padding: var(--padding-6xl) var(--padding-51xl);
+  cursor: pointer;
+  color: var(--color-white);
+}
+.regis1 {
+  position: relative;
+  background-color: var(--color-snow);
+  width: 100%;
+  height: 982px;
+  flex-direction: column;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  gap: var(--gap-51xl);
+  text-align: left;
+  font-size: var(--title-size);
+  color: var(--color-black);
+  font-family: var(--notes);
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./login.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+    />
+  </head>
+  <body>
+    <div class="login">
+      <img class="bg-icon" alt="" src="./public/bg@2x.png" />
+
+      <div class="loginbox">
+        <div class="title12">
+          <b class="belum-punya-akun">Selamat Datang</b>
+          <div class="bunda-container">
+            <b class="belum-punya-akun">Bunda</b>
+          </div>
+        </div>
+        <div class="form">
+          <div class="email">
+            <div class="kata-sandi">Email</div>
+          </div>
+          <div class="pass">
+            <div class="kata-sandi">Kata sandi</div>
+            <div class="lupa-kata-sandi">Lupa Kata Sandi ?</div>
+          </div>
+          <div class="nohp">
+            <div class="kata-sandi">Nomor Handphone</div>
+          </div>
+        </div>
+        <div class="button2" id="buttonContainer">
+          <b class="belum-punya-akun">Masuk</b>
+        </div>
+        <div class="belum-punya-akun-parent">
+          <div class="belum-punya-akun">Belum punya akun ?</div>
+          <b class="mari-daftar-dan" id="mariDaftarDan"
+            >Mari Daftar dan Bergabung</b
+          >
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var buttonContainer = document.getElementById("buttonContainer");
+      if (buttonContainer) {
+        buttonContainer.addEventListener("click", function (e) {
+          window.location.href = "landing.html";
+        });
+      }
+      
+      var mariDaftarDan = document.getElementById("mariDaftarDan");
+      if (mariDaftarDan) {
+        mariDaftarDan.addEventListener("click", function (e) {
+          window.location.href = "./regis1.html";
+        });
+      }
+      </script>
+  </body>
+</html>

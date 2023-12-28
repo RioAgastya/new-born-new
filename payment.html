@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./payment.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+    />
+  </head>
+  <body>
+    <div class="payment">
+      <img class="graphic-icon" alt="" src="./public/graphic@2x.png" />
+
+      <div class="content6">
+        <div class="doctor">
+          <img class="foto-icon" alt="" src="./public/foto@2x.png" />
+
+          <div class="nama">
+            <div class="dr-evilia-rachmat">Dr. Evilia Rachmat</div>
+            <div class="spesialis-tht-anak">Spesialis THT Anak</div>
+          </div>
+        </div>
+        <div class="total-tagihan">
+          <div class="sesi-30m">
+            <div class="dr-evilia-rachmat">Biaya sesi untuk 30 menit</div>
+            <div class="spesialis-tht-anak">Rp. Lorem ipsum</div>
+          </div>
+          <div class="sesi-30m">
+            <div class="dr-evilia-rachmat">Biaya Layanan</div>
+            <div class="spesialis-tht-anak">Rp. Lorem ipsum</div>
+          </div>
+          <img
+            class="total-tagihan-child"
+            alt=""
+            src="./public/line-1@2x.png"
+          />
+
+          <div class="sesi-30m">
+            <div class="dr-evilia-rachmat">Total Tagihan</div>
+            <div class="spesialis-tht-anak">Rp. Lorem ipsum</div>
+          </div>
+        </div>
+        <div class="doctor1">
+          <div class="dr-evilia-rachmat">Keluhan</div>
+          <div class="anak-saya-sudah">
+            Anak saya sudah 2 Minggu sakit tenggorokan dan mengeluh susah
+            menelan.
+          </div>
+        </div>
+      </div>
+      <div class="button6" id="buttonContainer">
+        <b class="lanjut">Lanjut</b>
+      </div>
+    </div>
+
+    <script>
+      var buttonContainer = document.getElementById("buttonContainer");
+      if (buttonContainer) {
+        buttonContainer.addEventListener("click", function (e) {
+          window.location.href = "./payment2.html";
+        });
+      }
+      </script>
+  </body>
+</html>
